@@ -1,0 +1,196 @@
+.todo-wrapper{
+    background-color: #e3e7f6;
+    padding: 2%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px black;
+  }
+  
+  .todo-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .todo-input-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 25px;
+    margin-top: 10px;
+  }
+  
+  .todo-input-item label{
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .todo-input-item input{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    background: #d8dae0; 
+    border-radius: 10px; 
+    color: black;
+  }
+
+  .todo-input-item input::placeholder{
+    color: #7b7b7c;
+   }
+
+  .todo-input-item textarea{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    height: 80px;
+    outline: none;
+    background: #d8dae0; 
+    border-radius: 10px; 
+    color: black;
+  }
+
+  .todo-input-item textarea::placeholder{
+    color: #7b7b7c;
+   }
+  
+  .todo-input-item input:focus{
+    outline: 3px solid #ced8ff;
+  }
+
+  .todo-input-item textarea:focus{
+    outline: 3px solid #ced8ff;
+  }
+  
+  .primaryBtn{
+    background-color: #97abfa;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  .primaryBtn:hover{
+    background-color: #748ffb;
+  }
+  
+  .dark .todo-wrapper{
+    background-color: #353434;
+    padding: 2%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px black;
+  }
+
+ .dark .todo-input-item label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+  }
+
+  .dark .primaryBtn{
+    background-color: #97abfa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+  }
+
+  .dark .todo-input-item input{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    background: black; 
+    border-radius: 10px; 
+    color: white;
+  }
+ 
+  .dark .todo-input-item textarea{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    height: 80px;
+    outline: none;
+    background: black; 
+    border-radius: 10px; 
+    color: white;
+  }
+
+  .dark .todo-input-item textarea:focus{
+    outline: 3px solid #ced8ff;
+  }
+  
+
+  .imagearea{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    height: 200px;
+    background: #d8dae0; 
+    border-radius: 10px;
+
+  }
+
+  .imagearea p{
+    color: #7b7b7c ;
+    text-align: center;
+    margin-top: 85px;
+  }
+
+  .dark .imagearea p{
+    color: #7b7b7c ;
+  }
+
+  .dark .imagearea{
+    padding: 8px;
+    border: none;
+    width: 500px;
+    height: 200px;
+    background: black;
+    border-radius: 10px;
+  }
+
+  .new{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hi{
+    margin-left: 100px;
+  }
+
+  .preview-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preview-card img {
+    max-width: 100%;
+    max-height: 200px; 
+    margin-top: 10px;
+  }
+  
+  .dark .preview-card {
+    background: black;
+  }
